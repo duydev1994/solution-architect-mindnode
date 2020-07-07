@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+<head>
+<title>Solution Architect</title>
+</head>
+<body>
+<outline text="The goal of the architect’s career development is the formation of the “m” — multiplatform &amp; multidomain specialist"></outline>
+<outline text="Solution Architect 2020"><outline text="System Design Cheat Sheet"><outline text="Understand Problem and Scope"><outline text="Recognize stakeholders and prioritize them. Create a RACI matrix"></outline>
+<outline text="Check functional requirements"></outline>
+<outline text="Understand business drivers of the project"></outline>
+<outline text="Recognize end-users of the project and understand how they use that system"></outline>
+<outline text="Define external dependencies"></outline>
+<outline text="Suggest additional features"></outline>
+<outline text="Remove items that interviewer considers out of scope"></outline>
+</outline>
+<outline text="Think about constraints and non-functional requirements"><outline text="(use PASSME if you do not remember all of NFRs)"><outline text="PASSME"><outline text="Performance"></outline>
+<outline text="Availability"></outline>
+<outline text="Scalability"></outline>
+<outline text="Security"></outline>
+<outline text="Maintainability"></outline>
+<outline text="Extensibility"></outline>
+</outline>
+<outline text="NFRs"><outline text="Non-functional requirement"></outline>
+</outline>
+</outline>
+<outline text="Recognize the number of users"></outline>
+<outline text="Estimate users growth rate (for the next year/next five years)"></outline>
+<outline text="Define average response time"></outline>
+<outline text="Understand database size (current / for the next year/ for the next five years)"></outline>
+<outline text="Understand storage size (current / for the next year/ for the next five years)"></outline>
+<outline text="Recognize security needs"></outline>
+<outline text="Define acceptable downtime of the system"></outline>
+<outline text="Recognize the number of requests (per month/per second)"></outline>
+<outline text="Estimate reads vs. writes operations percentage"></outline>
+<outline text="Define time to market"></outline>
+<outline text="Check customer related NFR: legacy/proprietary soft, etc"></outline>
+</outline>
+<outline text="Detect Architecture Significant Requirements"><outline text="Mix between FRs and NFRs to detect ASRs"><outline text="FRs ( Functional requirement ) "></outline>
+<outline text=" NFRs ( Non-functional requirement )"></outline>
+<outline text="ASRs ( Architecturally significant requirements )"></outline>
+</outline>
+</outline>
+<outline text="Abstract Design"><outline text="Choose which architectural views to define based on the stakeholders’ matrix. Use common C4/4+1/etc otherwise"></outline>
+<outline text="Choose Architecture Style (Monolith, SOA — microservices, layered architecture, etc.)"></outline>
+<outline text="Choose between cloud solution or on-premise servers"></outline>
+<outline text="Choose storage type (SQL or NoSQL)"></outline>
+<outline text="Consider bottlenecks and determine solutions"></outline>
+<outline text="Consider authentication/authorization and privacy"></outline>
+<outline text="Suggest security rules and protocols"></outline>
+<outline text="Define infrastructure: load balancing, messaging"></outline>
+<outline text="Make a rough overview of any critical algorithm that drives the service"></outline>
+<outline text="Understand what data should be cached and how to improve performance/security/availability with caching"></outline>
+<outline text="Choose monitoring system and logging. Analytics and automatically reboot the system in case of exceptions"></outline>
+<outline text="Define separation between public and restricted areas"></outline>
+</outline>
+</outline>
+<outline text="Characteristics (Nét đặc trưng)"><outline text="Communicability (Khả năng giao tiếp)"><outline text=""><outline text="Thu hút người nghe"></outline>
+<outline text="Kiến trúc sư là những người nói chuyện ngắn gọn, hùng hồn và có năng lực"></outline>
+</outline>
+</outline>
+<outline text="Broad and deep technical knowledge (Kiến thức kỹ thuật rộng và sâu)"><outline text=""><outline text="reports"></outline>
+<outline text="technical documentation"></outline>
+<outline text="diagrams"></outline>
+</outline>
+</outline>
+<outline text="Responsibility"></outline>
+<outline text="Stress resistance"></outline>
+<outline text="Management skills"><outline text="leadership skills"></outline>
+<outline text="organizational"></outline>
+<outline text="distributed and composed"></outline>
+</outline>
+<outline text="Analytic skills"><outline text="Identifying the stakeholders on the project"></outline>
+<outline text="Identifying business requirements and requirements of the stakeholders on the project."></outline>
+<outline text="Designing the entire system based on the received requirements"></outline>
+<outline text="Choosing the system architecture and each component of this system at a high level"></outline>
+<outline text="Choosing the technologies for the implementation of each component and connections between the parts"></outline>
+<outline text=" Architectural review. Yes, yes, it exists"></outline>
+<outline text="Code-review"></outline>
+<outline text="Writing project documentation and support it"></outline>
+<outline text="Creating unified development standards in the company"></outline>
+<outline text="Controlling the architecture during the next iteration of the system release"></outline>
+</outline>
+</outline>
+<outline text="Types of architects"><outline text="System architect"><outline text=" Affects one system and builds connections within it"></outline>
+<outline text="Helps the project manager to make management decisions"></outline>
+<outline text="Focuses on the technical component of the development"></outline>
+<outline text=" Has a deep knowledge of the technologies"></outline>
+</outline>
+<outline text="Solution architect"><outline text="Participates in discussions of business"></outline>
+<outline text="Creates connections between several systems"></outline>
+<outline text="Provides communication between several teams"></outline>
+<outline text="Designs connections between systems"></outline>
+<outline text="Codes independently only solution prototypes"></outline>
+<outline text="Acts as a universal soldier of business and technology"></outline>
+</outline>
+<outline text="Enterprise architect"><outline text="Affects all development of the company"></outline>
+<outline text="Works with high-level abstractions of the created systems"></outline>
+<outline text="Provides technical communications throughout the company"></outline>
+<outline text="Does not interact with the code"></outline>
+<outline text="Focuses on the business component"></outline>
+<outline text="Has a broad technological horizon"></outline>
+<outline text="Owns several domains"></outline>
+</outline>
+<outline text="Domain architects"><outline text="Designing the entire system based on the received requirements"></outline>
+<outline text="Identifying the stakeholders on the project"></outline>
+<outline text="Designing the entire system based on the received requirements"></outline>
+<outline text="Identifying business requirements and requirements of the stakeholders on the project"></outline>
+<outline text="Choosing the technologies for the implementation of each component and connections between the components"></outline>
+<outline text="Writing project documentation and support it"></outline>
+<outline text="Creating unified development standards in the company"></outline>
+<outline text="Controlling the architecture during the next iteration of the system release"></outline>
+<outline text="Types"><outline text=""></outline>
+</outline>
+</outline>
+</outline>
+<outline text="Quality attributes "><outline text="non-functional requirements"><outline text="NFRs that affect system behavior, design, and user interface during work."></outline>
+<outline text="NFRs that affect the development and support of the system."></outline>
+</outline>
+<outline text="Quality attributes types"><outline text="Software Product Quality (ISO/IEC 25010)  https://iso25000.com/index.php/en/iso-25000-standards/iso-25010?limit=3&amp;start=6"><outline text="Functional Suitability"><outline text="Functional completeness"></outline>
+<outline text="Functional correctness "></outline>
+<outline text="Functional appropriateness"></outline>
+</outline>
+<outline text="Performance efficiency"><outline text="Time behaviour "></outline>
+<outline text="Capacity"></outline>
+<outline text="Resource utilization"></outline>
+</outline>
+<outline text="Compatibility"><outline text="Co-existence"></outline>
+<outline text="Interoperability"></outline>
+</outline>
+<outline text="Usability"><outline text="Appropriateness recognizability"></outline>
+<outline text="Learnability"></outline>
+<outline text="User error protection"></outline>
+<outline text="Operability"></outline>
+<outline text="User interface aesthetics"></outline>
+<outline text="Accessibility"></outline>
+</outline>
+<outline text="Reliability"><outline text="Maturity"></outline>
+<outline text="Availability"></outline>
+<outline text="Fault tolerance"></outline>
+<outline text="Recoverability"></outline>
+</outline>
+<outline text="Security"><outline text="Confidentiality"></outline>
+<outline text="Integrity"></outline>
+<outline text="Non-repudiation"></outline>
+<outline text="Accountability"></outline>
+<outline text="Authenticity"></outline>
+</outline>
+<outline text="Maintainability"><outline text="Modularity"></outline>
+<outline text="Reusability"></outline>
+<outline text="Analysability"></outline>
+<outline text="Modifiability"></outline>
+<outline text="Testability"></outline>
+</outline>
+<outline text="Portability"><outline text="Adaptability"></outline>
+<outline text="Installability"></outline>
+<outline text="Replaceability"></outline>
+</outline>
+</outline>
+<outline text="Availability"></outline>
+<outline text="Usability"></outline>
+<outline text="Performance"><outline text="Latency"></outline>
+<outline text="Channel capacity"></outline>
+</outline>
+<outline text="Interoperability"><outline text="Different formats of data in similar external systems"></outline>
+<outline text="Outdated external systems"></outline>
+<outline text="Different versions of the API in external systems"></outline>
+<outline text="Backward compatibility of the API for integration"></outline>
+<outline text="Poor quality and lack of standards of external systems"></outline>
+</outline>
+<outline text="Reliability"></outline>
+<outline text="Security"></outline>
+<outline text="Maintainability"></outline>
+<outline text="Modifiability"></outline>
+<outline text="Testability"></outline>
+<outline text="Scalability"><outline text="Vertical"><outline text="To increase, we add more resources, such as memory, disks, or processors into one system."></outline>
+</outline>
+<outline text="Horizontal"><outline text="We increase the number of computing units and divide the load."></outline>
+</outline>
+</outline>
+<outline text="Reusability"></outline>
+<outline text="Supportability"><outline text="No diagnosis"><outline text=": How the activity and performance of the system are controlled. It includes various types of logging"></outline>
+</outline>
+<outline text="No tools for troubleshooting"><outline text="This includes backups, various systems for creating snapshots of the system, and tools for auditing the system. When the system fails, it is always more pleasant to wait for an automatic restart than to solve the issue manually"></outline>
+</outline>
+<outline text="No health checking"><outline text=" This includes a variety of systems for measuring compilation time, deployment time, database size, or mobile application size."></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="Documentation"><outline text="Software documentation"><outline text="Knowledge sharing. It is suitable for knowledge transfer between people working in different functional areas of the project, as well as for knowledge transfer to new participants."></outline>
+<outline text="Analyses. Documentation is also a starting point for future architectural reviews of the project."></outline>
+<outline text="Communication. Documentation is the starting point for interaction between different stakeholders. In particular, it helps to share the ideas of the architect to the developers."></outline>
+</outline>
+<outline text="Types of diagrams"><outline text="Informal"></outline>
+<outline text="Formal"></outline>
+<outline text="Semiformal"><outline text="c4model"></outline>
+<outline text="UML diagrams are semi-formal"></outline>
+</outline>
+</outline>
+<outline text="Tips for writing documentation"><outline text="Avoid repetitions"><outline text=" DRY principle (Don’t Repeat Yourself) works equally well as in programming and in documenting architecture. Create links, but do not write the same thing several times"></outline>
+</outline>
+<outline text="Recognize for whom you are writing"><outline text="Perhaps the most important rule. Documentation for developers and top management may differ dramatically. Therefore, it is necessary to decide for whom you are doing it, then understand what these people need in your documentation and what answers they try to find."></outline>
+</outline>
+<outline text="Avoid ambiguity"><outline text="In my practice, one of the most frequent problems with documentation. For example, you came up with a solution that is documented in the form of diagrams. You understand it, you know the context, but the person who read it may not know it, and it confuses him what exactly you had in mind. Therefore, you should always provide context for your diagrams as a description. Also, try to use standard approaches. For example, I really love using C4 (https://c4model.com/) to describe my solutions, due to the fact that this approach allows you first to make a high-level description of the system, and then dive into the details at the level of components, containers, and deployment, and also has reasonably formal criteria for describing each element"></outline>
+</outline>
+<outline text="Maintain relevance"><outline text="In this case, you should find a compromise between time spent and relevance. Here you can again use the same formula which is described at the very beginning of that article. If maintaining documentation is cheaper for a project than the opposite way, then it is the right thing to do."></outline>
+</outline>
+<outline text="Review documentation"><outline text="You should periodically review the documentation. So you will most likely find places that have lost relevance and are worth updating. Also, try to share documentation with stakeholders and ask for their opinion. It is especially useful when you are starting to document architecture"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</body>
+</opml>
