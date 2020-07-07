@@ -1,3 +1,4 @@
 # solution-architect-mindnode
 
-![] (Solution_Architect.png)
+
+![Optional Text](Solution_Architect.png)
